@@ -6,6 +6,7 @@
     }
     #login{
         width: 80vw;
+        height: 300px;
     }
     div#imagem{
         float: left;
@@ -17,6 +18,9 @@
         width: 65%;
         height: 100%;
     }
+    div.campo > input{
+        width: 86.5%;
+    }
 }
 
 @media screen and (min-width:992px) {
@@ -25,6 +29,7 @@
     }
     #login{
         width: 950px;
+        height: 300px;
     }
    div#imagem{
     float: right;
@@ -41,6 +46,9 @@
    }
    div#form>p{
     font-size: 1.2em;
+   }
+   div.campo > input{
+    width: 89.9%;
    }
     
 }
