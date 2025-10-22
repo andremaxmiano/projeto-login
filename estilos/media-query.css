@@ -18,8 +18,12 @@
         width: 65%;
         height: 100%;
     }
+    div.campo{
+        display: flex;
+    }
     div.campo > input{
-        width: 86.5%;
+        flex: auto;
+        transform: translate(-1px, 0px)
     }
 }
 
@@ -47,8 +51,12 @@
    div#form>p{
     font-size: 1.2em;
    }
+   div.campo{
+    display: flex;
+   }
    div.campo > input{
-    width: 89.9%;
+    flex: auto;
+    transform: translate(-1px, 0px);
    }
     
 }
